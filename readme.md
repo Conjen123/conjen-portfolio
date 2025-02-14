@@ -2,4 +2,4 @@
 
 # Portfolio Website
 
-# Made by Jennifer Amelinda
+Made by Jennifer Amelinda
