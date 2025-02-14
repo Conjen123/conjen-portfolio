@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/4ca18b543a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="topnav">
+      <div class="nav-content">
+        <div class="logo">
+          <img src="./assets/icons/logo.svg" alt="Logo" />
+          Conjen
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <div class="container" id="home">
+      <div class="home-text-section">
+        <h1 id="left-to-right">Welcome To My Portfolio!</h1>
+        <p id="fade-in">By Jennifer Amelinda</p>
+        <h2 id="fade-in">I am open for Front-end Developer!</h2>
+      </div>
+
+      <div class="home-image" id="down">
+        <img src="./assets/home/pexels-divinetechygirl-1181248.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- about me -->
+    <div class="container" id="about-me">
+      <div class="about-me-section">
+        <div class="avatar">
+          <img src="./assets/about me/me.png" alt="Profile" />
+        </div>
+        <div class="about-me-text-section">
+          <h1 class="subtitle">ABOUT ME</h1>
+          <p>
+            My name is Jennifer Amelinda. I’m currently attending BINUS
+            University majoring in Information Systems and a first-year student.
+            I love learning new things. I am an honest and open-minded person.
+          </p>
+        </div>
+      </div>
+
+      <div class="education-section">
+        <h1 class="subtitle">EDUCATION</h1>
+        <div class="card">
+          <span class="content">
+            <h4>BINUS University</h4>
+            <p>Information Systems</p>
+          </span>
+          <span class="year">2024 - now</span>
+        </div>
+
+        <div class="card">
+          <span class="content">
+            <h4>Darma Satria Persada</h4>
+            <p>Social Science</p>
+          </span>
+          <span class="year">2021 - 2024</span>
+        </div>
+      </div>
+
+      <div class="software-section">
+        <h1 class="subtitle">SOFTWARE</h1>
+        <div class="tags">
+          <span>MS Office</span>
+          <span>VS Code</span>
+          <span>Figma</span>
+          <span>Canva</span>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <h1 class="subtitle">SKILLS</h1>
+        <div class="tags">
+          <span>Python</span>
+          <span>HTML, CSS, JS</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container" id="portfolio">
+      <div class="title-portfolio">
+        <h1 class="subtitle">PROJECTS</h1>
+      </div>
+      <div class="portfolio-section">
+        <div class="box-section">
+          <div class="box">
+            <div class="project-preview">
+              <img src="./assets/portfolio preview/lively.png" alt="" />
+            </div>
+            <span class="box-label"> UI/UX - Lively </span>
+          </div>
+
+          <div class="box">
+            <div class="project-preview">
+              <img src="./assets/portfolio preview/Starwave.png" alt="" />
+            </div>
+            <span class="box-label"> UI/UX - Starwave </span>
+          </div>
+
+          <div class="box">
+            <div class="project-preview">
+              <img src="./assets/portfolio preview/BSQ Redesign.png" alt="" />
+            </div>
+            <span class="box-label"> UXRD Final Project - BSQ Redesign </span>
+          </div>
+
+          <div class="box">
+            <div class="project-preview">
+              <img src="./assets/portfolio preview/LnT Quest.png" alt="" />
+            </div>
+            <span class="box-label"> Website - BNCC LnT Front-end Quest </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact form -->
+    <div class="container" id="contact">
+      <div class="title-contact">
+        <h1>Let's connect!</h1>
+      </div>
+      <div class="contact-section">
+        <div class="contact-image">
+          <img src="./assets/icons/contact.svg" alt="girl with a laptop" />
+        </div>
+        <form id="contact-form">
+          <div class="input-container">
+            <div class="input-box">
+              <div class="icon">
+                <img src="./assets/icons/profile.svg" alt="" />
+              </div>
+              <input id="form-full-name" type="text" placeholder="Full Name" />
+            </div>
+
+            <div class="input-box">
+              <div class="icon">
+                <img src="./assets/icons/email.svg" alt="" />
+              </div>
+              <input id="form-email" type="text" placeholder="Email" />
+            </div>
+
+            <div class="input-box">
+              <div class="icon">
+                <img src="./assets/icons/linkedin.svg" alt="" />
+              </div>
+              <input id="form-linkedin" type="text" placeholder="LinkedIn" />
+            </div>
+
+            <div class="input-box">
+              <div class="icon">
+                <img src="./assets/icons/comment.svg" alt="" />
+              </div>
+              <textarea id="form-comment" placeholder="Comment"></textarea>
+            </div>
+          </div>
+
+          <div class="submit-button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-message">
+          <div class="footer-text-title">
+            <h3>Conjen's Portfolio</h3>
+          </div>
+          <div class="footer-logo">
+            <img src="./assets/icons/logo.svg" alt="logo" />
+            <span class="message">
+              <p>
+                Thank you for visiting my portfolio! I hope you enjoy exploring
+                my work. Feel free to reach out if you’d like to collaborate or
+                just say hi!
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div class="footer-mycontact">
+          <div class="footer-text-title">
+            <h3>My Contact</h3>
+          </div>
+
+          <div class="contact-me">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <span>0812345678</span>
+          </div>
+
+          <div class="contact-me">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <span>jennifer.amelinda@binus.ac.id</span>
+          </div>
+
+          <div class="contact-me">
+            <div class="icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <span>Jennifer Amelinda</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
