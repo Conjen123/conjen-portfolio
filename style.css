@@ -257,6 +257,11 @@ li {
   align-items: center;
 }
 
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+}
+
 .box-section {
   display: flex;
   padding: 60px;
